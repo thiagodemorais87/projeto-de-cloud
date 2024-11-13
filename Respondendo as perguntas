@@ -1,0 +1,31 @@
+
+Nome: Thiago de Morais Gonçalves
+Matricula: 01609695 
+Turma: 4MA
+
+1-Diferenças entre arquiteturas: A arquitetura monolítica centraliza tudo em uma única aplicação; microsserviços fragmentam o sistema em pequenos serviços independentes; a arquitetura em camadas divide a aplicação em camadas (ex.: apresentação, lógica de negócios, dados) que se comunicam de forma linear.
+2- Monolítica: Simples de desenvolver; difícil de escalar e manter.
+Microsserviços: Alta flexibilidade e escalabilidade; complexidade maior na integração.
+Em camadas: Boa organização; pode gerar acoplamento entre camadas, dificultando mudanças.
+3-Monolítica: Escala verticalmente, limitada a recursos do servidor.
+Microsserviços: Escalabilidade horizontal, facilitando aumento de usuários e funcionalidades.
+Em camadas: Escalabilidade limitada à camada de maior carga.
+4-Monolítica: Mudanças afetam toda a aplicação, manutenção difícil.
+Microsserviços: Manutenção isolada em serviços específicos, fácil evolução.
+Em camadas: Mudanças numa camada podem afetar outras, manutenção razoável.
+5-Arquitetura recomendada para agenda: Microsserviços, devido à flexibilidade para escalar funcionalidades como notificações e autenticação de forma independente.
+6-Monolítica: Fraca, todas as responsabilidades estão juntas.
+Microsserviços: Forte, cada serviço é independente e modular.
+Em camadas: Boa separação, mas acoplada pela comunicação entre camadas.
+7-Monolítica: Boa performance local, mas limitada ao crescimento.
+Microsserviços: Latência pode aumentar pela comunicação entre serviços.
+Em camadas: Performance depende do design da comunicação entre camadas.
+8-Monolítica: Testes complexos, difícil isolar componentes.
+Microsserviços: Fácil de testar cada serviço separadamente.
+Em camadas: Testes focados por camada, mas interdependência pode complicar.
+9-Monolítica: Gerenciamento de grande código único.
+Microsserviços: Comunicação e orquestração entre serviços.
+Em camadas: Desafio de manter o acoplamento baixo entre camadas.
+10-Monolítica: Integração centralizada, fácil de implementar.
+Microsserviços: Flexível, cada serviço pode integrar com sistemas externos.
+Em camadas: Integração por camadas específicas, pode causar complexidade dependendo da camada escolhida.
